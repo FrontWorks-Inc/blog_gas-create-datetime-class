@@ -26,7 +26,7 @@ class Datetime {
    * @return {boolean} format 部分が同じかどうか
    */
   isSame(date, format = 'yyyy/MM/dd HH:mm:ss') {
-    return Datetime.format(this.date, format) === Datetime.format(date, format);
+    return Datetime.format(date, format) === Datetime.format(this.date, format);
   }
 
   /**
